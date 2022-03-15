@@ -1,0 +1,346 @@
+header {
+    background-color: #d35649;
+    padding: 1%;
+    align-items: center;
+}
+
+header a {
+    color: #eee;
+    text-decoration: none;
+}
+
+.menubar img {
+    width: 15%;
+}
+
+.menubar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar img {
+    width: 20%;
+}
+
+.header a:hover {
+    color: #98a5a5;
+}
+
+.header img:hover {
+    background-color: #98a5a5;
+}
+
+.navbar {
+    text-align: right;
+}
+
+.main1 {
+    margin: 5% 2% 0 2%;
+    text-align: center;
+    border-style: outset;
+    border-color: #eee;
+}
+
+.sunny {
+    display: flex;
+    padding: 2% 30%;
+}
+
+.rouage {
+    width: 10%
+}
+
+.sunny img {
+    width: 100%;
+}
+
+.sunny h2 {
+    color: #d35649;
+}
+
+.cases div {
+    margin: 1% 4%;
+    border-style: outset;
+    border-color: #eee;
+    padding: 4%;
+    align-items: center;
+}
+
+.cases b {
+    color: #509bd7;
+}
+
+.apply {
+    padding: 0 3%;
+    text-align: right;
+}
+
+.apply button {
+    background-color: #509bd7;
+    color: #eee;
+    padding: 1%;
+    border-style: outset;
+    border-color: #eee;
+}
+
+.apply button:hover {
+    background-color:skyblue;
+}
+
+.sunnyicones {
+    padding: 3%;
+}
+
+.sunnyicones img {
+    width: 15%;
+    padding: 1%;
+}
+
+.icones {
+    display: flex;
+}
+
+.icones p {
+    margin: 0%;
+}
+
+.main2 {
+    margin: 4% 2% 0 2%;
+}
+
+.click {
+    display: flex;
+    background-color: #eee;
+    padding: 2% 1%;
+}
+
+.click img {
+    width: 3%;
+}
+
+.main2 a {
+    color: black;
+}
+
+.main2 h3:hover {
+    text-decoration: underline;
+}
+
+.directions {
+    display: flex;
+    padding: 3% 40%;
+}
+
+.mapicone {
+    width: 15%;
+}
+
+.mapicone img {
+    width: 100%;
+}
+
+.directions h4 {
+    color: #d35649;
+}
+
+.main5 {
+    padding: 3% 2% 2% 2%;
+    background-color: black;
+    text-align: center;
+}
+
+.navigation {
+    padding: 0 15%;
+}
+
+.navigation a {
+    color: #eee;
+    text-decoration: none;
+    font-size: 50%;
+}
+
+.navigation img {
+    width: 20%;
+    background-color: #eee;
+}
+
+hr {
+    margin: 0%;
+}
+
+.plus {
+    padding: 3% 3% 0 3%;
+    color: #eee;
+}
+
+.plus h5 {
+    padding: 3% 0;
+}
+
+.navigation a:hover,.plus h5:hover,.plus p:hover {
+    color: #98a5a5;
+}
+
+.navigation img:hover {
+    background-color: #98a5a5;
+}
+
+.plus input {
+    background-color: black;
+    border-color: #98a5a5;
+    color: #98a5a5;
+}
+
+.plus button {
+    padding: 1% 4%;
+    background-color: #444;
+    color: #eee;
+    border-radius: 5%;
+    border-left-style: none;
+    border-color: #eee;
+}
+
+.plus a {
+    color: #d35649;
+    text-decoration: none;
+}
+
+.plus a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #1f1f1f;
+    padding: 1%;
+}
+
+footer img {
+    width: 40%;
+    padding: 1%;
+}
+
+footer p {
+    color: #98a5a5;
+    text-align: right;
+}
+
+footer img:hover {
+    background-color: #98a5a5;
+}
+
+footer p:hover {
+    color: #509bd7;
+}
+
+@media all and (max-width: 954px)
+{
+    .header {
+        flex-direction: column;
+    }
+    
+    .menubar {
+        padding: 0 40%;
+    }
+
+    .menubar img {
+        width: 100%;
+    }
+
+    .navbar {
+        text-align: center;
+    }
+
+    .navbar span {
+        display: none;
+    }
+
+    .responsive {
+        flex-direction: column;
+    }
+
+    .icones img {
+        width: 50%;
+    }
+
+    .directions {
+        padding-left: 35%;
+        padding-right: 35%;
+    }
+
+    .main5 {
+        display: none;
+    }
+}
+
+@media all and (max-width: 862px)
+{
+    .sunny {
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+}
+
+@media all and (max-width: 726px)
+{
+    .directions {
+        padding-left: 33%;
+        padding-right: 33%;
+    }
+}
+
+@media all and (max-width: 674px)
+{
+    .menubar {
+        padding: 0 35%;
+    }
+}
+
+@media all and (max-width: 644px)
+{
+    .sunny {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
+
+@media all and (max-width: 634px)
+{
+    .directions {
+        padding-left: 29,4%;
+        padding-right: 29.4%;
+    }
+}
+
+@media all and (max-width: 514px)
+{
+    .sunny {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+    .directions {
+        padding-left: 22%;
+        padding-right: 22%;
+    }
+}
+
+@media all and (max-width: 375px)
+{
+    .menubar {
+        padding: 0 30%;
+    }
+    
+    .sunny {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .directions {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    footer img{
+        width: 70%;
+    }
+}

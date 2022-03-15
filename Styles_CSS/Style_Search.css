@@ -1,0 +1,271 @@
+header {
+    background-color: #d35649;
+    padding: 1%;
+    align-items: center;
+}
+
+header a {
+    color: #eee;
+    text-decoration: none;
+}
+
+.menubar img {
+    width: 15%;
+}
+
+.menubar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar img {
+    width: 20%;
+}
+
+.header a:hover {
+    color: #98a5a5;
+}
+
+.header img:hover {
+    background-color: #98a5a5;
+}
+
+.navbar {
+    text-align: right;
+}
+
+.bande {
+    padding: 2% 0 0 0;
+}
+
+.filter {
+    padding: 1% 15% 1% 15%;
+    background-color: #eee;
+}
+
+.filter h4 {
+    color: #98a5a5;
+    text-align: center;
+}
+
+.filtercontain {
+    padding: 2% 0;
+    font-size: 60%;
+}
+
+.inputbar {
+    padding: 0%;
+}
+
+.inputbar b {
+    font-size: 80%;
+}
+
+.Location input,.Host input,.Subject input,.Final input {
+    width: 80%;
+}
+
+.Daytime input {width: 100%;}
+
+.searchclear {
+    padding: 0%;
+    font-size: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.searchclear a{
+    padding: 1%;
+}
+
+.search{
+    padding: 15% 0%;
+    border-style: none;
+    border-radius: 5%;
+    background-color: #509bd7;
+    color: #eee;
+}
+
+.clear{
+    padding: 10% 0%;
+    border-style: none;
+    border-radius: 5%;
+    background-color: #ffa500;
+    color: #eee;
+}
+
+.result {
+    padding: 3% 1%;
+    text-align: center;
+}
+
+.result h5 {
+    color: #98a5a5;
+}
+
+.figure {
+    padding: 2% 20%;
+}
+
+.figure img {
+    width: 100%;
+    background-color: #d35649;
+}
+
+.figure figcaption {
+    position: absolute;
+    width: 20%;
+    color: #eee;
+}
+
+.main5 {
+    padding: 3% 2% 2% 2%;
+    background-color: black;
+    text-align: center;
+}
+
+.navigation {
+    padding: 0 15%;
+}
+
+.navigation a {
+    color: #eee;
+    text-decoration: none;
+    font-size: 50%;
+}
+
+.navigation img {
+    width: 20%;
+    background-color: #eee;
+}
+
+hr {
+    margin: 0%;
+}
+
+.plus {
+    padding: 3% 3% 0 3%;
+    color: #eee;
+}
+
+.plus h5 {
+    padding: 3% 0;
+}
+
+.navigation a:hover,.plus h5:hover,.plus p:hover {
+    color: #98a5a5;
+}
+
+.navigation img:hover {
+    background-color: #98a5a5;
+}
+
+.plus input {
+    background-color: black;
+    border-color: #98a5a5;
+    color: #98a5a5;
+}
+
+.plus button {
+    padding: 1% 4%;
+    background-color: #444;
+    color: #eee;
+    border-radius: 5%;
+    border-left-style: none;
+    border-color: #eee;
+}
+
+.plus a {
+    color: #d35649;
+    text-decoration: none;
+}
+
+.plus a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #1f1f1f;
+    padding: 1%;
+}
+
+footer img {
+    width: 40%;
+    padding: 1%;
+}
+
+footer p {
+    color: #98a5a5;
+    text-align: right;
+}
+
+footer img:hover {
+    background-color: #509bd7;
+}
+
+@media all and (max-width: 1013px)
+{
+    .filtercontain {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
+@media all and (max-width: 954px)
+{
+    .header {
+        flex-direction: column;
+    }
+    
+    .menubar {
+        padding: 0 40%;
+    }
+
+    .menubar img {
+        width: 100%;
+    }
+
+    .navbar {
+        text-align: center;
+    }
+
+    .navbar span {
+        display: none;
+    }
+
+    .filtercontain {
+        flex-direction: column;
+    }
+
+    .figure {
+        flex-direction: column;
+    }
+
+    .figure figcaption {
+        position: absolute;
+        width: 60%;
+    }
+
+    .main5 {
+        display: none;
+    }
+}
+
+@media all and (max-width: 674px)
+{
+    .menubar {
+        padding: 0 35%;
+    }
+}
+
+@media all and (max-width: 375px)
+{
+    .menubar {
+        padding: 0 30%;
+    }
+    
+    footer img{
+        width: 70%;
+    }
+}
